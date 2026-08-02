@@ -9,4 +9,13 @@ Collaborators: Ethan Chen, Jason Shi
 
 - Joystick controls ultrasonic sensor mounted to a servo with low-latency positioning response. 
 - 2D visualization tool built in Processing using Java receives Arduino sensor serial data and renders a polar radar map displaying object shapes and distance in real time.
+- Two control modes: panning (joystick angle moves sensor either to the left or right) and tracking (joystick directly aims sensor, which matches joystick angle in real time)
+- LCD display outputs current mode and distance detected. Buzzer sounds if distance is in danger threshold.
+- Modes are toggled via button, LEDs indicate which mode is currently active.
+
+## Arduino module
+[Arduino code](sensorcontrols.ino)
+
+## Polar display module
+[Polar display code](polardisplay.pde)
 
