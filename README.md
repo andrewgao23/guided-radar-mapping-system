@@ -1,5 +1,4 @@
 # guided-radar-mapping-system
-<br><br>
 Embedded radar system using Arduino that scans and maps surrounding environment.
 
 Collaborators: Ethan Chen, Jason Shi
